@@ -1,0 +1,26 @@
+{
+  "name": "emailextractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bullmq": "^5.8.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^140.0.1",
+    "ioredis": "^5.4.1",
+    "luxon": "^3.4.4",
+    "mongoose": "^8.4.4",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "openai": "^4.52.1",
+    "simple-oauth2": "^5.0.1"
+  }
+}
